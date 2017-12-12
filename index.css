@@ -1,7 +1,6 @@
 .memories{
     display: block;
-    margin: auto;
-    width: 65%;
+    text-align: center;
 }
 
 body{
