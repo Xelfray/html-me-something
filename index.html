@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link href="index.css" type="text/css" rel="stylesheet">
     <title>My Dota</title>
   </head>
   <body>
     <header>
-      <img src='./img/DotA2.jpg'>
+      <img src='./img/DotA2.jpg' id="home">
     </header>
-    <h1>Game:</h1>
-    <ul>
-      <li><a href="#intro">About Dota 2.</a></li>
-      <li><a href="#teamplay">About me and my team.</a></li>
-      <li><a href="#photos">Good memories.</a></li>
-    </ul>
     
-    <div id="intro">
-      <h2 >About Dota 2:</h2>
-      <p><strong>Dota 2</strong> is a free-to-play multiplayer online battle arena(MOBA) 
+    <div class="topnav" id="myTopnav">
+      <a class="active" href="#home">Home</a>
+      <a href="#intro">About Dota 2</a>
+      <a href="#teamplay">My Team</a>
+      <a href="#herosel">Album</a>
+    </div>
+   
+    <article>
+      <div id="intro">
+        <h2 class="centered">About Dota 2:</h2>
+        <p><strong>Dota&nbsp2</strong> is a free-to-play multiplayer online battle arena(MOBA) 
         video game developed and published by Valve Corporation. The game is the stand-alone
         sequel to Defense of the Ancients(DOTA). This game is played in matches between two teams
         of <strong>five</strong><em> players</em>, with each team occupying and defending their own
@@ -25,13 +28,14 @@
          players collect experience points and items for their heroes in order to successfully battle 
          the opposing team's heroes, who are attempting to do the same to them. A team wins by being 
          the first to destroy a large structure located in the opposing team's base, called the "Ancient".
-      </p>
-    </div>
+        </p>
+      </div>
+    </article>
     <br />
-    
-    <div id="teamplay">
-      <h2 >Me and my Team:</h2>
-      <p>Me and close friends of mine decided that Dota 2 was a lot of fun and created a team just for 
+    <main>
+      <div id="teamplay">
+        <h2 class="centered">Me and my Team:</h2>
+        <p>Me and close friends of mine decided that Dota 2 was a lot of fun and created a team just for 
         entertainment purposes, that team was later known as <strong>Infinity Flames</strong>, but as we kept 
         playing the game we fall in love with it. Each game was an 
         adventure, an adrenaline rush, the cenit of focus... We played and played and played and we became 
@@ -41,14 +45,39 @@
         but we were already there and just limited our gameplay to make our opponents to be in our comfort picks
         zone. We crushed that tournament, we won all of the matches without even losing <strong>one</strong> game.
         That day was crazy, there were tears of joy, lots of congrats and a brief fullfillment feeling.
-      </p>
-    </div>
+        </p>
+      </div>
+    </main>
     <div id="photos">
-      <h2>Good memories:</h2>
-      <img src="./img/21322975_10212147444152996_776641778_n.jpg">
-      <img src="./img/13422404_506952379429627_4554950544611279532_o.jpg">
-      <img src="./img/13669287_1628798880743636_215516820062760174_o.jpg">
+      <h2 class="centered">Good memories:</h2>
+      <div class="myPhotos">
+      <img src="./img/21322975_10212147444152996_776641778_n.jpg" style="width:60%">
+      <img src="./img/13422404_506952379429627_4554950544611279532_o.jpg" style="width:60%">
+      <img src="./img/13669287_1628798880743636_215516820062760174_o.jpg" style="width:60%">
+      </div
     </div>
+    <div id="herosel">
+      <h2 class="centered">Album:</h2>
+        <div class="memories">   
+        <img src="./img/pbeuci1090.jpg" style="width:auto">
+            
+        <img src="./img/th (3).jpg" style="width:auto">
+              
+        <img src="./img/th (1).jpg" style="width:auto">
+             
+        <img src="./img/th (5).jpg" style="width:auto">
+                
+        <img src="./img/th.jpg" style="width:auto">
+        </div>    
+    </div>     
+
+   
+    
+    
+    <footer>
+      <p>Made by: Raimir Alvarez</p>
+      <p>Contact: <a href="someemailadress@gmail.com">someemailadress@gmail.com</a></p>
+    </footer>
 
     
   </body>
